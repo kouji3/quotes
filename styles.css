@@ -6,6 +6,7 @@
 body {
     margin: 0;
     position: relative;
+    overflow-x: hidden;
 }
 
 .chat-box {
@@ -62,7 +63,7 @@ body {
 @media (max-width: 330px) {
     
     .chat-box  {
-        padding: 25px 0;
+        padding: 45px 0;
     }
 
     .response {
